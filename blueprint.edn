@@ -1,0 +1,8 @@
+{:itonami.blueprint/id "cloud-itonami-3512"
+ :itonami.blueprint/name "Community Renewable Energy Operations"
+ :itonami.blueprint/isic-rev5 "3512"
+ :itonami.blueprint/domain :energy/community-renewables
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:decarbonization :resilience :energy-affordability]
+ :itonami.blueprint/governor :grid-policy-governor
+ :itonami.blueprint/status :public-oss}
