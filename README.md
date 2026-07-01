@@ -8,6 +8,14 @@ schools, cooperatives, municipalities and small firms run solar/storage assets,
 meter energy flows, forecast demand, and publish auditable community-benefit
 reports.
 
+## Robotics premise
+
+All cloud-itonami verticals are designed on the premise that a **robot performs
+the physical domain work**. Here a grid-tending robot performs switching, panel inspection and meter connection at the community renewable site under an actor that proposes
+actions and an independent **Grid Policy Governor** that gates them. The governor never
+dispatches hardware itself; `:high`/`:safety-critical` actions (such as
+operating near live equipment, at height or near the grid) require human sign-off.
+
 ## Core Contract
 
 ```text
